@@ -1,0 +1,13 @@
+.education__list {
+  /* max-width: 450px; */
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.education__list-item {
+  margin: 0.5em;
+}

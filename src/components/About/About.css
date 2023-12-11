@@ -1,0 +1,102 @@
+.about {
+  flex-direction: column;
+  margin-top: 0em;
+}
+
+.about__me {
+  text-align: center !important;
+}
+
+.about__name {
+  color: var(--clr-primary);
+}
+.about__gender {
+  font-weight: 100;
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: var(--clr-primary);
+}
+
+.about__role {
+  margin-top: 1.2em;
+}
+.about__address {
+  margin-top: 0.5em;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.about__desc {
+  font-size: 1rem;
+  max-width: 600px;
+}
+
+.about__desc,
+.about__contact {
+  margin-top: 2.4em;
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+  /* padding-bottom: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .btn--outline {
+  margin-right: 1em;
+}
+
+.about__picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border: 4px solid var(--clr-primary);
+  align-self: center;
+}
+.about__img {
+  width: 200px;
+  height: 200px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+@media (max-width: 600px) {
+  .app .about {
+    /* align-items: flex-start; */
+    margin-top: 2em;
+  }
+  .about__picture {
+    width: 120px;
+    height: 120px;
+  }
+  .about__img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .about__role {
+    font-size: 1.5rem !important;
+    text-align: center;
+  }
+  .about__me {
+    font-size: 1.5rem !important;
+  }
+  .about__gender {
+    font-size: 1.2rem !important;
+    display: block;
+  }
+  .about__address {
+    font-size: 1rem;
+  }
+
+  .about__desc {
+    margin-top: 1rem;
+    padding: 0 0.5rem;
+  }
+}
