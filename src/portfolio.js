@@ -103,10 +103,10 @@ const educations = [
 
 const experiences = [
   {
-    company: 'Optx',
+    company: 'OPTX',
     logo: optx,
     link: links.optx,
-    color: '#2978b5',
+    color: '#ff9e00',
     position: 'Software Engineer',
     dates: 'April 2023 – August 2023',
     address: 'Chennai, India · On-site',
@@ -119,7 +119,7 @@ const experiences = [
     company: 'SnapBizz Cloudtech Pvt Ltd',
     logo: snapbizz,
     link: links.snapbizz,
-    color: '#0d8fff',
+    color: '#5D92F4',
     position: 'Software Engineer',
     dates: 'August 2020 – March 2023',
     address: 'Bengaluru, Karnataka, India · On-site',
@@ -157,7 +157,7 @@ const projects = [
     livePreview: 'https://blog-connector-application.vercel.app/',
   },
   {
-    name: 'TYPINGGAME: To Save Plant',
+    name: 'TYPINGGAME: To Save Planet',
     description:
       'Designed and implemented a dynamic typing game with five levels, incorporating a tracking system to record and display player accuracy and overall average typing speed, providing an engaging gaming experience with pop-up notifications for wins and losses.',
     stack: ['HTML', 'CSS', 'Javascript'],
@@ -171,7 +171,7 @@ const recommendations = [
     profile: sathish,
     name: 'Sathishkumar ThirumalaiNambi',
     linkedin: 'https://www.linkedin.com/in/sathishkumar-thirumalainambi/',
-    position: 'Project Management',
+    position: 'Solution Architect',
     company: 'Optx',
     logo: optx,
     link: links.optx,

@@ -1,37 +1,28 @@
 .app {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
 }
 
 .light {
-  /* --clr-bg: #fcfcfc;
+  --clr-bg: #f5f5f5;
   --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
-  --border: #e3e3e3;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
-
-  --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #5470d9;
-  --border: #e3e3e3;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-fg: #333;
+  --clr-fg-alt: #555;
+  --clr-primary: #1988d2;
+  --border: #ddd;
+  --shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px 0px;
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
-  --border: #6072b5;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --clr-bg: #333;
+  --clr-bg-alt: #555;
+  --clr-fg: #eee;
+  --clr-fg-alt: #ddd;
+  --clr-primary: #1988d2;
+  --border: #444;
+  --shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px 0px;
 }
 
 main {
@@ -70,7 +61,7 @@ main {
 }
 
 .link::before {
-  content: "";
+  content: '';
   display: inline;
   width: 0%;
   height: 0.2em;
@@ -87,7 +78,7 @@ main {
 
 .link--nav {
   color: var(--clr-fg);
-  text-transform: lowercase;
+  text-transform: uppercase;
   font-weight: 500;
 }
 
@@ -119,7 +110,7 @@ main {
 }
 
 .btn--outline:before {
-  content: "";
+  content: '';
   position: absolute;
   background-color: var(--clr-primary);
   right: 100%;
