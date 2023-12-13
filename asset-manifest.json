@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Swati-Portfolio/static/css/main.3c712905.chunk.css",
+    "main.js": "/Swati-Portfolio/static/js/main.9c26bef1.chunk.js",
+    "main.js.map": "/Swati-Portfolio/static/js/main.9c26bef1.chunk.js.map",
+    "runtime-main.js": "/Swati-Portfolio/static/js/runtime-main.aed461d7.js",
+    "runtime-main.js.map": "/Swati-Portfolio/static/js/runtime-main.aed461d7.js.map",
+    "static/css/2.4ce9e501.chunk.css": "/Swati-Portfolio/static/css/2.4ce9e501.chunk.css",
+    "static/js/2.f1898ec8.chunk.js": "/Swati-Portfolio/static/js/2.f1898ec8.chunk.js",
+    "static/js/2.f1898ec8.chunk.js.map": "/Swati-Portfolio/static/js/2.f1898ec8.chunk.js.map",
+    "index.html": "/Swati-Portfolio/index.html",
+    "static/css/2.4ce9e501.chunk.css.map": "/Swati-Portfolio/static/css/2.4ce9e501.chunk.css.map",
+    "static/css/main.3c712905.chunk.css.map": "/Swati-Portfolio/static/css/main.3c712905.chunk.css.map",
+    "static/js/2.f1898ec8.chunk.js.LICENSE.txt": "/Swati-Portfolio/static/js/2.f1898ec8.chunk.js.LICENSE.txt",
+    "static/media/Resume.6ffe9379.pdf": "/Swati-Portfolio/static/media/Resume.6ffe9379.pdf",
+    "static/media/alekh.15858752.jpeg": "/Swati-Portfolio/static/media/alekh.15858752.jpeg",
+    "static/media/lpu.38e71efa.png": "/Swati-Portfolio/static/media/lpu.38e71efa.png",
+    "static/media/profile.2f6d421c.jpeg": "/Swati-Portfolio/static/media/profile.2f6d421c.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aed461d7.js",
+    "static/css/2.4ce9e501.chunk.css",
+    "static/js/2.f1898ec8.chunk.js",
+    "static/css/main.3c712905.chunk.css",
+    "static/js/main.9c26bef1.chunk.js"
+  ]
+}
