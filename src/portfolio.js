@@ -7,6 +7,7 @@ import optx from '../src/images/optx.jpeg';
 import rupesh from '../src/images/rupesh.jpeg';
 import sathish from '../src/images/sathish.jpeg';
 import snapbizz from '../src/images/snapbizz.png';
+import rajesh from '../src/images/rajesh.jpeg';
 
 const header = {
   homepage: '',
@@ -83,6 +84,7 @@ const educations = [
     dates: '2023 - 2025',
     gpa: '4.0/4.0',
     achievements: [
+      'As the teaching assistant, I guided undergraduate students in two classes: data structures and algorithms in C++ CSE 2020 & CSE 4310',
       'Participated in the Grace Hopper Celebration (GHC) and attended events hosted by the Society of Women Engineers (SWE).',
       'Enthusiastically took part in diverse academic clubs, notably as a member of both the ISA (International Student Association) Club and the SCANAS club at Cal State.',
     ],
@@ -140,6 +142,24 @@ const experiences = [
 
 const projects = [
   {
+    name: 'REAL-TIME CODE SYNC',
+    description:
+      'I led the development of a real-time code synchronization tool, focusing on seamless collaboration and efficient room management. Key features included unique room ID generation, easy room ID copying, and smooth room exit procedures, ensuring a hassle-free user experience.',
+    stack: [
+      'WebSocket',
+      'ReactJS',
+      'Redux',
+      'NodeJS',
+      'ExpressJS',
+      'SASS',
+      'HTML',
+      'CSS',
+      'MongoDB',
+    ],
+    sourceCode: 'https://github.com/swati2904/Sync_Code_Studio',
+    // livePreview: 'https://blog-connector-application.vercel.app/',
+  },
+  {
     name: 'Blog Connector',
     description:
       'Created Blog Connector, a secure social application with robust JWT-based authentication, featuring user-friendly functionalities such as profile customization, blog posting, and social interaction through liking, disliking, and commenting on posts.',
@@ -157,7 +177,7 @@ const projects = [
     livePreview: 'https://blog-connector-application.vercel.app/',
   },
   {
-    name: 'TYPINGGAME: To Save Planet',
+    name: 'TYPINGGAME',
     description:
       'Designed and implemented a dynamic typing game with five levels, incorporating a tracking system to record and display player accuracy and overall average typing speed, providing an engaging gaming experience with pop-up notifications for wins and losses.',
     stack: ['HTML', 'CSS', 'Javascript'],
@@ -167,6 +187,17 @@ const projects = [
 ];
 
 const recommendations = [
+  {
+    profile: rajesh,
+    name: 'Rajesh Perumal',
+    linkedin: 'https://www.linkedin.com/in/rajee2686/',
+    position: 'Senior Technical Manager',
+    company: 'Optx',
+    logo: optx,
+    link: links.optx,
+    description:
+      'I recommend Swati as a front-end developer. Their proficiency in React & Redux, attention to detail, collaborative nature, and dedication make them a valuable addition to any team.',
+  },
   {
     profile: sathish,
     name: 'Sathishkumar ThirumalaiNambi',
