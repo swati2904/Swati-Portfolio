@@ -8,6 +8,7 @@ import rupesh from '../src/images/rupesh.jpeg';
 import sathish from '../src/images/sathish.jpeg';
 import snapbizz from '../src/images/snapbizz.png';
 import rajesh from '../src/images/rajesh.jpeg';
+import ucsb from '../src/images/ucsb.jpg';
 
 const header = {
   homepage: '',
@@ -19,6 +20,7 @@ const links = {
   lpu: 'https://www.lpu.in',
   snapbizz: 'https://snapbizz.com/',
   optx: 'https://optx.com/',
+  ucsb: 'https://www.ucsb.edu/',
 };
 
 const about = {
@@ -104,6 +106,18 @@ const educations = [
 ];
 
 const experiences = [
+  {
+    company: 'UC Santa Barbara',
+    logo: ucsb,
+    link: links.ucsb,
+    color: '#003660',
+    position: 'Software Engineer Intern',
+    dates: 'April 2023 – August 2023',
+    address: 'Chennai, India · On-site',
+    description:
+      'Identified and addressed security vulnerabilities in AI chat plugins across 2,000+ websites, improving validation mechanisms for 1,500 websites and securing sensitive data exposed by 500+ plugins. Enhanced system performance and security by integrating automated vulnerability detection, increasing model efficiency by 20% and ensuring stronger protection against data leaks. Built and optimized web scraping tools, increasing data extraction speed by 25% and improving overall system accuracy.',
+    skills: ['Python', 'Javascript', 'Burp Suite', 'Wordpress', 'HTML', 'CSS'],
+  },
   {
     company: 'OPTX',
     logo: optx,
