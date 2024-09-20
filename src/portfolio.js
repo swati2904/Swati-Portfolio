@@ -112,8 +112,8 @@ const experiences = [
     link: links.ucsb,
     color: '#003660',
     position: 'Software Engineer Intern',
-    dates: 'April 2023 – August 2023',
-    address: 'Chennai, India · On-site',
+    dates: 'June 2024 – August 2024',
+    address: 'Santa Barbara · On-site',
     description:
       'Identified and addressed security vulnerabilities in AI chat plugins across 2,000+ websites, improving validation mechanisms for 1,500 websites and securing sensitive data exposed by 500+ plugins. Enhanced system performance and security by integrating automated vulnerability detection, increasing model efficiency by 20% and ensuring stronger protection against data leaks. Built and optimized web scraping tools, increasing data extraction speed by 25% and improving overall system accuracy.',
     skills: ['Python', 'Javascript', 'Burp Suite', 'Wordpress', 'HTML', 'CSS'],
