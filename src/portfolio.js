@@ -67,6 +67,8 @@ const skills = [
   'NodeJS',
   'ExpressJS',
   'MongoDB',
+  'Spring Boot',
+  'Azure',
   'RESTful APIs',
   'Unix',
   'Linux',
