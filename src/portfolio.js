@@ -86,7 +86,7 @@ const educations = [
     name: 'California State University-San Bernardino',
     degree: 'Master of Science in Computer Science',
     dates: '2023 - 2025',
-    gpa: '4.0/4.0',
+    gpa: '3.81/4.0',
     achievements: [
       'As the teaching assistant, I guided undergraduate students in two classes: data structures and algorithms in C++ CSE 2020 & CSE 4310',
       'Participated in the Grace Hopper Celebration (GHC) and attended events hosted by the Society of Women Engineers (SWE).',
