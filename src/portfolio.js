@@ -49,7 +49,9 @@ const skills = [
   'Vue JS',
   'AngularJS',
   'Redux',
-  'Next JS',
+  'NextJS',
+  'Docker',
+  'kubernetes',
   'Tailwind',
   'SASS',
   'Material-UI',
@@ -83,10 +85,10 @@ const educations = [
   {
     logo: csusb,
     link: links.calState,
-    name: 'California State University-San Bernardino',
+    name: 'California State University, San Bernardino',
     degree: 'Master of Science in Computer Science',
     dates: '2023 - 2025',
-    gpa: '3.81/4.0',
+    gpa: '3.79/4.0',
     achievements: [
       'As the teaching assistant, I guided undergraduate students in two classes: data structures and algorithms in C++ CSE 2020 & CSE 4310',
       'Participated in the Grace Hopper Celebration (GHC) and attended events hosted by the Society of Women Engineers (SWE).',
@@ -99,7 +101,7 @@ const educations = [
     name: 'Lovely Professional University',
     degree: 'Bachelor of Technology - BTech, Computer Science',
     dates: 'Aug 2016 - July 2020',
-    gpa: '7.01/10',
+    gpa: '3.16/4.0',
     achievements: [
       'Secured a spot among the top 50 teams out of 10,000 nationwide participants in the Grand Finale of Smart India Hackathon, endorsed by the Government of India.',
       'Participated as a volunteer in diverse events, actively involved in coding night challenges, and attended Pythonthon sessions hosted within the university.',
@@ -113,7 +115,7 @@ const experiences = [
     logo: ucsb,
     link: links.ucsb,
     color: '#003660',
-    position: 'Software Engineer Intern',
+    position: 'Software Engineer Research Intern',
     dates: 'June 2024 – August 2024',
     address: 'Santa Barbara · On-site',
     description:
@@ -126,7 +128,7 @@ const experiences = [
     link: links.optx,
     color: '#ff9e00',
     position: 'Software Engineer',
-    dates: 'April 2023 – August 2023',
+    dates: 'April 2023 – July 2023',
     address: 'Chennai, India · On-site',
     description:
       'Collaborated on a team to enhance enterprise efficiency through streamlined data access, automated event tracking, and a customizable productivity dashboard. Key contributions include implementing elevated UI features and integrating pipelines on Microsoft Azure DevOps. This experience deepened my understanding of full-stack development and emphasized website customization possibilities in frontend development.',
@@ -139,7 +141,7 @@ const experiences = [
     link: links.snapbizz,
     color: '#5D92F4',
     position: 'Software Engineer',
-    dates: 'August 2020 – March 2023',
+    dates: 'August 2020 – April 2023',
     address: 'Bengaluru, Karnataka, India · On-site',
     description:
       'Played a key role in a team project, addressing challenges in designing an automated retailer dashboard to enhance user efficiency. Contributed to solving real-world problems related to inventory management and purchase processes. This hands-on experience provided valuable insights into collaborative problem-solving and user-centric design, fostering continuous learning and adaptability in a dynamic work environment.',
