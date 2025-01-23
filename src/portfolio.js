@@ -160,7 +160,23 @@ const experiences = [
 
 const projects = [
   {
-    name: 'REAL-TIME CODE SYNC',
+    name: 'Safe Shortener',
+    description:
+      'Built a URL shortener with enhanced security, featuring password protection, CAPTCHA, link expiry, access control with geolocation restrictions, and seamless link management for improved accessibility and user experience.',
+    stack: [
+      'Golang',
+      'NextJs',
+      'Docker',
+      'kubernatives',
+      'HTML',
+      'CSS',
+      'MongoDB',
+    ],
+    sourceCode: 'https://github.com/swati2904/Sync_Code_Studio',
+    // livePreview: 'https://blog-connector-application.vercel.app/',
+  },
+  {
+    name: 'Sync Code Editor',
     description:
       'I led the development of a real-time code synchronization tool, focusing on seamless collaboration and efficient room management. Key features included unique room ID generation, easy room ID copying, and smooth room exit procedures, ensuring a hassle-free user experience.',
     stack: [
@@ -178,6 +194,15 @@ const projects = [
     // livePreview: 'https://blog-connector-application.vercel.app/',
   },
   {
+    name: 'Fin-Tastic Division',
+    description:
+      'Developed a Division App combining education and entertainment, featuring interactive games, engaging visuals, secure cloud storage, personalized profiles, progress tracking, and voice-to-text functionality, with a focus on user privacy.',
+    stack: ['C#', 'SQL', 'Azure Functions', 'GIT'],
+    sourceCode: 'https://github.com/swati2904/Fin-tastic_Division',
+    livePreview:
+      'https://www.amazon.com/SE-Team-Spring-2024-Fin-Tastic/dp/B0D316Q5ZF/',
+  },
+  {
     name: 'Blog Connector',
     description:
       'Created Blog Connector, a secure social application with robust JWT-based authentication, featuring user-friendly functionalities such as profile customization, blog posting, and social interaction through liking, disliking, and commenting on posts.',
@@ -192,7 +217,7 @@ const projects = [
       'MongoDB',
     ],
     sourceCode: 'https://blog-connector-application.vercel.app/',
-    livePreview: 'https://blog-connector-application.vercel.app/',
+    // livePreview: 'https://blog-connector-application.vercel.app/',
   },
   {
     name: 'TYPINGGAME',
