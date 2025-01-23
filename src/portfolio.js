@@ -216,7 +216,7 @@ const projects = [
       'CSS',
       'MongoDB',
     ],
-    sourceCode: 'https://blog-connector-application.vercel.app/',
+    sourceCode: 'https://github.com/swati2904/BlogConnectorApplication',
     // livePreview: 'https://blog-connector-application.vercel.app/',
   },
   {
